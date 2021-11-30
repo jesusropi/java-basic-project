@@ -27,4 +27,10 @@ public class Calculator {
         // TODO
         return 0;
     }
+
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        int sum = c.plus(5, 6);
+        System.out.println(sum);
+    }
 }
